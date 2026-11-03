@@ -136,7 +136,7 @@ const PICKUP_TYPES = {
     treasure: true,
   },
 
-  boosts: {
+  boots: {
     color: "#9cff6b",
     size: 14,
     shape: "square",
@@ -202,4 +202,8 @@ const LEGEND = {
   "H": { kind: "enemy",  name: "hopper" },
 
   // <-- add your new letters here
+
+  "S": { kind: "enemy",  name: "stalker" },
+  "h": { kind: "pickup", name: "heart" },
+  "s": { kind: "pickup", name: "sludge" },
 };
