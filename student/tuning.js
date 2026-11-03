@@ -40,7 +40,7 @@ const TUNING = {
   GROUND_FRICTION: 350,
 
   // How much you can steer while in the air.       try 200 (committed) to 3000 (floaty control)
-  AIR_ACCEL: 200,
+  AIR_ACCEL: 600,
 
   // How quickly you slow down in the air with no keys pressed.
   AIR_FRICTION: 500,
