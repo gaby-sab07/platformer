@@ -136,7 +136,7 @@ const PICKUP_TYPES = {
     treasure: true,
   },
 
-  boots: {
+  boosts: {
     color: "#9cff6b",
     size: 14,
     shape: "square",
@@ -155,6 +155,23 @@ const PICKUP_TYPES = {
   },
 
   // <-- paste your new pickup here
+    heart: {
+    color: "#d44e4e",
+    size: 10,
+    shape: "heart",
+    points: 0,
+    treasure: false,
+    power: { life: 1 },
+  },
+
+    sludge: {
+    color: "#1a2e10",
+    size: 14,
+    shape: "square",
+    points: 0,
+    treasure: false,
+    power: { speed: -1.5, seconds: 6 },
+  },
 
 };
 
