@@ -84,7 +84,17 @@ const ENEMY_TYPES = {
   },
 
   // <-- paste your new enemy here
-
+  stalker: {
+    movement: "chase" + "patrol",
+    speed: 100,
+    width: 15,
+    height: 19,
+    color: "#251e30",
+    stompable: true,
+    points: 250,
+    turnsAtLedges: true,
+    sightRange: 50,
+  },
 };
 
 
