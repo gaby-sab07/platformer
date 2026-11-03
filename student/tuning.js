@@ -25,28 +25,28 @@ const TUNING = {
      Assignment: Part 2, Hole 1.                                           */
 
   // How fast you fall. Bigger = heavier.          try 900 (moon) to 3500 (rock)
-  GRAVITY: 900,
+  GRAVITY: 1500,
 
   // The fastest you can fall.                      try 400 to 1500
   MAX_FALL_SPEED: 900,
 
   // Top running speed.                             try 120 to 400
-  MOVE_SPEED: 220,
+  MOVE_SPEED: 350,
 
   // How quickly you reach top speed on the ground. try 600 (sluggish) to 5000 (snappy)
-  GROUND_ACCEL: 2400,
+  GROUND_ACCEL: 3000,
 
   // How quickly you stop when you let go.          try 300 (ice) to 5000 (glue)
-  GROUND_FRICTION: 2600,
+  GROUND_FRICTION: 350,
 
   // How much you can steer while in the air.       try 200 (committed) to 3000 (floaty control)
-  AIR_ACCEL: 1500,
+  AIR_ACCEL: 200,
 
   // How quickly you slow down in the air with no keys pressed.
   AIR_FRICTION: 500,
 
   // How hard you push off the ground when you jump. try 400 to 900
-  JUMP_VELOCITY: 620,
+  JUMP_VELOCITY: 550,
 
 
   /* ===== HOLE 2 of 7 — The feel you can't see ===========================
