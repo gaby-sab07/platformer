@@ -34,7 +34,7 @@ const TUNING = {
   MOVE_SPEED: 350,
 
   // How quickly you reach top speed on the ground. try 600 (sluggish) to 5000 (snappy)
-  GROUND_ACCEL: 3000,
+  GROUND_ACCEL: 1000,
 
   // How quickly you stop when you let go.          try 300 (ice) to 5000 (glue)
   GROUND_FRICTION: 350,
