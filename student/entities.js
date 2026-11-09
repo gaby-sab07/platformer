@@ -84,16 +84,16 @@ const ENEMY_TYPES = {
   },
 
   // <-- paste your new enemy here
-  stalker: {
-    movement: "chase" + "patrol",
-    speed: 100,
-    width: 15,
-    height: 19,
+  sentry: {
+    movement: "chase",
+    speed: 50,
+    width: 22,
+    height: 26,
     color: "#251e30",
-    stompable: true,
-    points: 250,
+    stompable: false,
+    points: 0,
     turnsAtLedges: true,
-    sightRange: 50,
+    sightRange: 160,
   },
 };
 
@@ -157,8 +157,8 @@ const PICKUP_TYPES = {
   // <-- paste your new pickup here
     heart: {
     color: "#d44e4e",
-    size: 10,
-    shape: "heart",
+    size: 14,
+    shape: "diamond",
     points: 0,
     treasure: false,
     power: { life: 1 },
@@ -170,7 +170,7 @@ const PICKUP_TYPES = {
     shape: "square",
     points: 0,
     treasure: false,
-    power: { speed: -1.5, seconds: 6 },
+    power: { speed: 0.25, seconds: 6 },
   },
 
 };
