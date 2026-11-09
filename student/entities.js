@@ -203,7 +203,7 @@ const LEGEND = {
 
   // <-- add your new letters here
 
-  "S": { kind: "enemy",  name: "stalker" },
+  "S": { kind: "enemy",  name: "sentry" },
   "h": { kind: "pickup", name: "heart" },
   "s": { kind: "pickup", name: "sludge" },
 };
