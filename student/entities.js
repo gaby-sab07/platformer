@@ -85,7 +85,7 @@ const ENEMY_TYPES = {
 
   // <-- paste your new enemy here
   stalker: {
-    movement: "chase" + "patrol",
+    movement: "chase",
     speed: 100,
     width: 15,
     height: 19,
@@ -158,7 +158,7 @@ const PICKUP_TYPES = {
     heart: {
     color: "#d44e4e",
     size: 10,
-    shape: "heart",
+    shape: "diamond",
     points: 0,
     treasure: false,
     power: { life: 1 },
